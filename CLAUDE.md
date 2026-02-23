@@ -83,7 +83,7 @@ cargo clippy --workspace  # Lint all crates
 - `lib.rs` — Library entry point and re-exports
 - `romaji/` — Romaji-to-hiragana conversion
   - `trie.rs` — Trie data structure
-  - `rules.rs` — 200+ conversion rules (Google IME compatible)
+  - `rules.rs` — 200+ conversion rule
   - `converter.rs` — FSM converter
 - `kanji/` — Kana-kanji conversion via llama.cpp
   - `backend.rs` — Backend + KanaKanjiConverter
