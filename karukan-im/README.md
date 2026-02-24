@@ -89,7 +89,8 @@ I2026-02-24 22:57:54.252982 addonmanager.cpp:195] Loaded addon karukan
 
 ![Karukanを追加した状態](images/fcitx5-karukan-added.png)
 
-> **Note**: 初回起動時にHuggingFaceからGGUFモデル（GGUF + tokenizer）を自動ダウンロードするため、起動に数分かかる場合があります。ダウンロード中はfcitx5のログに以下のような進捗が表示されます:
+> [!NOTE]
+> 初回起動時にHuggingFaceからGGUFモデル（GGUF + tokenizer）を自動ダウンロードするため、起動に数分かかる場合があります。ダウンロード中はfcitx5のログに以下のような進捗が表示されます:
 >
 > ```
 > I2026-02-24 23:12:12.651828 addonmanager.cpp:195] Loaded addon karukan
