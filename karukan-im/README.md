@@ -63,9 +63,11 @@ fcitx5 -r -d
 I2026-02-24 22:57:54.252982 addonmanager.cpp:195] Loaded addon karukan
 ```
 
-> **WARNING**: 以前のバージョンの `install-local.sh` を使用した場合、`~/.config/environment.d/fcitx5-karukan.conf` にシステムパスを含まない `FCITX_ADDON_DIRS`（例: `FCITX_ADDON_DIRS=/home/user/.local/lib/fcitx5`）が設定されている可能性があります。このファイルが残っていると fcitx5 のシステムアドオンが見つからなくなり、以下のようなエラーが発生します:
+> [!WARNING]
+> 以前のバージョンの `install-local.sh` を使用した場合、`~/.config/environment.d/fcitx5-karukan.conf` にシステムパスを含まない `FCITX_ADDON_DIRS`（例: `FCITX_ADDON_DIRS=/home/user/.local/lib/fcitx5`）が設定されている可能性があります。このファイルが残っていると fcitx5 のシステムアドオンが見つからなくなり、以下のようなエラーが発生します:
 >
 > ```
+> fcitx5 -rd 
 > E addonloader.cpp:32] Could not locate library libwayland.so for addon wayland.
 > E addonloader.cpp:32] Could not locate library libclassicui.so for addon classicui.
 > ```
