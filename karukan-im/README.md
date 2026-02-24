@@ -36,6 +36,10 @@ fcitx5 -r
 
 ### Build & Install (ユーザーローカル)
 
+> [!WARNING]
+> 環境変数 `FCITX_ADDON_DIRS` がローカルパスのみに上書きがされてしまい正しくfcitx5が動作しなくなる可能性があります。こちら修正中のため、現状ではシステムインストールもしくは手動で `FCITX_ADDON_DIRS` を設定する方法を推奨します。
+> https://github.com/togatoga/karukan/issues/6
+
 `~/.local` にインストールします。sudo 不要です。ビルド・インストール・設定ファイルのコピー・`FCITX_ADDON_DIRS` の設定をまとめて行います。
 
 ```bash
